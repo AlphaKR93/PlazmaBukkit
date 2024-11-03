@@ -13,5 +13,5 @@ on:
 jobs:
   release:
     name: Release Plazma (${{ github.ref_name }})
-    uses: PlazmaMC/PlazmaBukkit/.github/workflows/global.yaml@main
+    uses: AlphaKR93/PlazmaBukkit/.github/workflows/global.yaml@main
     secrets: inherit
